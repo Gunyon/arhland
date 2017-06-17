@@ -1,0 +1,167 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #e6e7c3;
+	font-family: Arial, Helvetica;
+	font-size: 12px;
+}
+
+.wraper {
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.header {
+	background: url(../img/header.jpg) no-repeat 0 0;
+	height: 314px;
+}
+
+.logo {
+	display: block;
+	height: 109px;
+	margin-left: 50px;
+	width: 318px;
+}
+
+.logo img {
+	border: 0;
+}
+
+.menu {
+	height: 30px;
+	list-style: none;
+	margin: 155px 0 0 80px;
+}
+
+.menu li {
+	float: left;
+	height: 38px;
+	margin: 0 10px;
+	width: 150px;
+}
+
+.menu li a {
+	background-color: #92ac1a;
+	border-radius: 19px;
+	color: #FFFFFF;
+	display: block;
+	font-size: 14px;
+	height: 38px;
+	line-height: 38px;
+	padding: 0 0 0 40px;
+	text-decoration: none;
+	width: 90px;
+}
+
+.about_us {
+	background: url(../img/about_us.jpg) no-repeat 10px 5px;
+}
+
+.services {
+	background: url(../img/services.jpg) #92ac1a no-repeat 10px 5px;
+}
+
+.gallery {
+	background: url(../img/gallery.jpg) no-repeat 10px 5px;
+}
+
+.articles {
+	background: url(../img/articles.jpg) #92ac1a no-repeat 10px 5px;
+}
+
+.contacts {
+	background: url(../img/contacts.jpg) no-repeat 5px 7px;
+}
+
+.content {
+	float: left;
+	padding-right: 20px;
+	width: 780px;
+}
+
+.sidebar {
+	float: left;
+	width: 200px;
+}
+
+.clear {
+	clear: both;
+}
+
+.text {
+	background-color: #FFF;
+	border-radius: 0 30px 30px 30px;
+	margin: 25px 15px;
+	padding: 20px;
+}
+
+.text p {
+	color: #516d15;
+	line-height: 20px;
+	margin-bottom: 20px;
+	font-weight: normal;
+}
+
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	font-weight: normal;
+}
+
+.gallery-item {
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	border-radius: 0 20px 20px 20px;
+	float: left;
+	height: 140px;
+	margin: 0 15px 25px 20px;
+	overflow: hidden;
+	position: relative;
+	width: 225px;
+}
+
+.gallery-item a {
+	background: rgba(54, 25, 25, .5);
+	border-radius: 0 0 20px 20px;
+	bottom: 0;
+	color: white;
+	display: block;
+	font-size: 14px;
+	height: 40px;
+	left: 0;
+	line-height: 40px;
+	padding: 0 20px;
+	position: absolute;
+	text-align: right;
+	text-decoration: none;
+	width: 185px;
+}
+
+.footer {
+	background-color: #cfd8a1;
+	border-radius: 0 30px 30px 30px;
+	color: #444;
+	height: 30px;
+	margin: 10px 20px;
+	padding: 30px 30px 10px 30px;
+	width: 690px;
+}
+
+.footer a {
+	color: #444;
+	margin: 40px auto;
+	text-decoration: none;
+}
+
+.footer p {
+	float: right;
+}
+
+.pix a {
+	color: #6ab80c;
+	margin: 0 0 0 5px;
+	text-decoration: underline;
+}
